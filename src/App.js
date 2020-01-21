@@ -1,5 +1,6 @@
 import React from 'react';
 import GlobalStyles from './styles/GlobalStyles';
+import { Blok } from './components';
 
 
 const App = () => {
@@ -7,8 +8,8 @@ const App = () => {
         <>
             <GlobalStyles />
             <h1>Hello !!!!</h1>
-            {/* <Blok width="500px" height="50px" bgColor="orange" border="5px dashed"></Blok>
-            <Blok width="80px" height="100px" bgColor="violet" margin="0 auto"></Blok> */}
+            <Blok justifyContent='flex-end' width="500px" height="50px" bgColor="orange" border="5px dashed" ></Blok>
+
         </>
     )
 };
